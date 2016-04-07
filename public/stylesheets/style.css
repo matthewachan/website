@@ -1,0 +1,71 @@
+html, body {
+	background: white;
+	font: 300 16px 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	height: 100%;
+	padding-top: 25px;
+}
+.project-img {
+	width: 150px;
+	height: 150px;
+	margin-right: 11px;
+	margin-bottom: 11px;
+}
+details:hover {
+	cursor: pointer;
+}
+figcaption {
+	display: inline-block;
+	width: 175px;
+}
+.row {
+	margin-bottom: 22px;
+}
+.glyphicon-phone, .glyphicon-envelope, .glyphicon-github, .glyphicon-linkedin {
+	cursor: pointer;
+}
+a {
+	color: black;
+}
+a, a:hover, a:visited, a:link, a:focus, a:active {
+	text-decoration: none;
+}
+nav a {
+	color: white;
+}
+nav a:hover, nav a:visited {
+	color: white;
+}
+.blur {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	-moz-filter: blur(5px); 
+	-o-filter: blur(5px); 
+	-ms-filter: blur(5px); 
+}
+.dropdown-menu li a {
+	color: black;
+}
+.bio {
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding-bottom: 22px;
+  text-align: center;
+  margin-top: 66px;
+  width: 100%;
+}
+.bio img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #888;
+  margin: -66px 0 5px 0;
+}
+.bio ul {
+	margin-left: 28px;
+}
+.bio ul li {
+	margin-bottom: 4px;
+}
+footer a {
+	padding-right: 33px;
+}
